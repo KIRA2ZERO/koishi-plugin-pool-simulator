@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-pool-simulator",
+  "description": "可以自由定制池子并管理的抽卡模拟器",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "lottery",
+    "simulator",
+    "pool"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.3"
+  }, 
+  "koishi": {
+    "description": {
+      "zh": "可以自由定制池子并管理的抽卡模拟器"
+    },
+    "service": {
+      "required": [
+        "database"
+      ]
+    },
+    "locales": [
+      "zh"
+    ]
+  } 
+}
