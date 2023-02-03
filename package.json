@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-pool-simulator",
   "description": "可以自由定制池子并管理的抽卡模拟器",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "contributors": [
+    "KIRA <914489374@qq.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,6 +12,11 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/KIRA2ZERO/koishi-plugin-pool-simulator",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/KIRA2ZERO/koishi-plugin-pool-simulator.git"
+  },
   "scripts": {},
   "keywords": [
     "chatbot",
@@ -20,7 +28,7 @@
   ],
   "peerDependencies": {
     "koishi": "^4.11.3"
-  }, 
+  },
   "koishi": {
     "description": {
       "zh": "可以自由定制池子并管理的抽卡模拟器"
@@ -33,5 +41,5 @@
     "locales": [
       "zh"
     ]
-  } 
+  }
 }
