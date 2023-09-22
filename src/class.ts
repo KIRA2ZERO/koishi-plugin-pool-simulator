@@ -2,8 +2,6 @@ import { Context, Session ,h} from 'koishi'
 
 import { CheckTools } from './checkClass'
 
-export const name = 'pool-simulator'
-
 export class PoolManager{
 
     // 属性

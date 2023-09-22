@@ -6,6 +6,22 @@ export const name = 'pool-simulator'
 
 export interface Config {}
 
+export const usage = `
+v2.0版本更新说明：
+
+1.新增【配置保底机制】命令，在使用【抽卡】命令时，可以使用-m选项来使用配置好的保底机制
+
+2.新增【替换物品】命令，可以替换指定池子中指定稀有度的物品
+
+3.新增【设置卡池描述】命令，可以给指定卡池设置描述信息
+
+4.新增【导入卡池配置】、【导出卡池配置】命令，便于已经配置好的卡池分享给其他人或大幅度修改卡池配置
+
+5.【设置稀有度概率】命令中最小稀有度概率变更为0.001%
+
+6.修复Bug：当Koishi在聊天平台给出错误信息之后，程序依旧正常执行。
+`
+
 export const Config: Schema<Config> = Schema.object({})
 
 declare module 'koishi' {

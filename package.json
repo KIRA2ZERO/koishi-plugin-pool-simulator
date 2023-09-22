@@ -1,20 +1,18 @@
 {
   "name": "koishi-plugin-pool-simulator",
-  "description": "可以自由定制池子并管理的抽卡模拟器",
-  "version": "1.0.2",
-  "contributors": [
-    "KIRA <914489374@qq.com>"
-  ],
+  "description": "可以自由定制池子并管理的抽卡模拟器(v2.0)",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "KIRA2ZERO <914489374@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/KIRA2ZERO/koishi-plugin-pool-simulator",
   "repository": {
-    "type": "github",
+    "type": "git",
     "url": "git+https://github.com/KIRA2ZERO/koishi-plugin-pool-simulator.git"
   },
   "scripts": {},
@@ -27,11 +25,11 @@
     "pool"
   ],
   "peerDependencies": {
-    "koishi": "^4.11.3"
+    "koishi": "^4.14.4"
   },
   "koishi": {
     "description": {
-      "zh": "可以自由定制池子并管理的抽卡模拟器"
+      "zh": "可以自由定制池子并管理的抽卡模拟器(v2.0)"
     },
     "service": {
       "required": [
